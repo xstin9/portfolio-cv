@@ -35,3 +35,23 @@ body {
   background: #0071E3;
   color: white;
 }
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.profile-float {
+  animation: float 3s ease-in-out infinite;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .profile-float {
+    animation: none;
+  }
+}

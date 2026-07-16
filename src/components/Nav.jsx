@@ -28,7 +28,7 @@ function Nav() {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 sm:px-8 lg:px-10">
         <a href="#home" className="text-base font-semibold tracking-[-0.02em] text-[#1D1D1F]">
-          Paul Mwa Guma
+          Portfolio
         </a>
 
         <div className="hidden items-center gap-8 text-sm font-medium text-[#1D1D1F]/80 md:flex">
@@ -41,7 +41,7 @@ function Nav() {
 
         <div className="flex items-center gap-3">
           <a
-            href="https://github.com/xstin9"
+            href="http://github/xstin9"
             target="_blank"
             rel="noreferrer"
             aria-label="GitHub"
@@ -50,7 +50,7 @@ function Nav() {
             <FaGithub size={18} />
           </a>
           <a
-            href="https://www.linkedin.com/in/paul-mwa-guma-602712318"
+            href="http://www.linkedin.com/in/paul-mwa-guma-602712318"
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"
