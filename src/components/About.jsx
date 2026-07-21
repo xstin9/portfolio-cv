@@ -18,7 +18,7 @@ function About() {
           className="max-w-4xl"
         >
           <h2 className="text-3xl font-semibold tracking-[-0.02em] text-[#1D1D1F] sm:text-4xl lg:text-5xl">
-            Motivated Computer Science student with practical experience designing and developing modern web applications using React, JavaScript, Firebase, C#, Java, SQL, HTML and CSS.
+            Motivated Information Technology student with practical experience designing and developing modern web applications using React, JavaScript, Firebase, C#, Java, SQL, HTML and CSS.
           </h2>
           <p className="mt-8 max-w-3xl text-lg leading-8 text-[#1D1D1F]/75">
             Passionate about building software that solves real-world problems through clean, scalable solutions.

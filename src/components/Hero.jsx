@@ -20,7 +20,7 @@ function Hero() {
             Paul Mwa Guma
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-[#1D1D1F]/75 sm:text-xl">
-            Computer Science student building software while competing at the South African National Athletics Championships.
+            Information Technology student building software while competing at the South African National Athletics Championships.
           </p>
         </motion.div>
 
