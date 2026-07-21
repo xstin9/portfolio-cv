@@ -15,7 +15,7 @@ const projects = [
     ],
     tech: ['React', 'JavaScript', 'Firebase', 'Git'],
     repo: 'https://github.com/xstin9',
-    demo: '#',
+    demo: 'https://athlete-app-pi.vercel.app/',
   },
   {
     title: 'React Notes Application',
