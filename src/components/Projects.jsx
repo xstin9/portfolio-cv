@@ -1,41 +1,7 @@
 import { motion } from 'framer-motion';
 import { FaGithub } from 'react-icons/fa';
 import { FiExternalLink } from 'react-icons/fi';
-
-const projects = [
-  {
-    title: 'Athlete Performance Tracker',
-    description:
-      'A comprehensive athlete management platform to help athletes monitor performance, manage training and achieve long-term goals.',
-    features: [
-      'Secure email & Google authentication',
-      'AI-powered training assistant',
-      'Performance dashboard',
-      'Personal best tracking',
-    ],
-    tech: ['React', 'JavaScript', 'Firebase', 'Git'],
-    repo: 'https://github.com/xstin9',
-    demo: 'https://athlete-app-pi.vercel.app/',
-  },
-  {
-    title: 'React Notes Application',
-    description:
-      'A secure cloud-based note management app for authenticated users to create, edit and organise notes.',
-    features: ['Cloud note storage', 'Protected user access', 'Fast search and organise'],
-    tech: ['React', 'Firebase', 'JavaScript'],
-    repo: 'https://github.com/xstin9',
-    demo: null,
-  },
-  {
-    title: 'Tutors Application',
-    description:
-      'A tutoring platform connecting students with tutors for university modules.',
-    features: ['Student-tutor matching', 'Module-focused support', 'Simple onboarding flow'],
-    tech: ['C#', 'Object-Oriented Programming'],
-    repo: 'https://github.com/xstin9',
-    demo: null,
-  },
-];
+import { projects } from '../data/projects';
 
 function Projects() {
   return (
@@ -73,21 +39,23 @@ function Projects() {
                   <p className="mt-4 text-base leading-7 text-[#1D1D1F]/75">{project.description}</p>
                 </div>
                 <div className="flex gap-2">
-                  <a
-                    href={project.repo}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={`Open ${project.title} repository`}
-                    className="rounded-full p-2 text-[#1D1D1F] transition hover:text-[#0071E3]"
-                  >
-                    <FaGithub size={18} />
-                  </a>
+                  {project.repo && (
+                    <a
+                      href={project.repo}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={`Open ${project.title} repository on GitHub`}
+                      className="rounded-full p-2 text-[#1D1D1F] transition hover:text-[#0071E3]"
+                    >
+                      <FaGithub size={18} />
+                    </a>
+                  )}
                   {project.demo && (
                     <a
                       href={project.demo}
                       target="_blank"
                       rel="noreferrer"
-                      aria-label={`Open ${project.title} demo`}
+                      aria-label={`Open ${project.title} live demo`}
                       className="rounded-full p-2 text-[#1D1D1F] transition hover:text-[#0071E3]"
                     >
                       <FiExternalLink size={18} />
